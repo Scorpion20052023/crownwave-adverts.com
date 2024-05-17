@@ -1,0 +1,135 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: black;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 50px;
+    color: gold;
+    background: black;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-info h2, .contact-info p {
+    margin: 5px;
+}
+
+.container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.menu .signup-btn {
+    padding: 10px 20px;
+    color: #ffffff;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+
+.viewport {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image-text {
+    max-width: 800px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.image-text img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+section h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+section h2 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+section h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section h4 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+section h5 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+section h6 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+section p, section ul, section ol {
+    font-size: 24px;
+    line-height: 1.5em;
+}
+
+ul, ol {
+    text-align: left;
+}
+
+.highlight {
+    color: rgb(9, 255, 0);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
